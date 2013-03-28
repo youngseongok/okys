@@ -586,6 +586,19 @@ table {
     margin-bottom:1.6em;
 }
 
+.writing-list .post-title {
+	font-size:2em;
+	margin-bottom:0;
+}
+
+.writing-list .post a {
+	padding-bottom:0;
+}
+
+.writing-list .meta {
+	font-size:1.2em;
+}
+
 /* post */
 .post a {
 	color:#333;
