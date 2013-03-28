@@ -628,7 +628,7 @@ table {
 }
 
 .post-content h1 {
-	font-size:2.3em;
+	font-size:1.5em;
 }
 
 .post-content h2 {
@@ -749,6 +749,10 @@ table {
 
 	.post-content {
 		padding:10%;
+	}
+
+	.post-content h1 {
+		font-size:2.3em;
 	}
 
 	.site-footer small {
