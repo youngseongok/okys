@@ -764,7 +764,7 @@ table {
 /* large screen size (Desktop)
    ========================================================================== */
 
-@media all and (min-width:800px) {
+@media all and (min-width:880px) {
 
 	.container {
 		width:90%;
