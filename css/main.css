@@ -714,7 +714,6 @@ table {
 		width:100%;
 		margin:0 auto;
 		clear:right;
-		float:right;
 	}
 
 	.writing,
@@ -728,7 +727,7 @@ table {
 		margin-right:0;
 	}
 
-	/* @IE7 */
+	/* @IE */
 	.lt-ie9 .col.last,
 	.lt-ie9 .item.last {
 		margin-right:0;
@@ -778,7 +777,6 @@ table {
 		margin-bottom:1em;
 	}
 
-	/* @ie */
 	.project-links .col:nth-child(2n) {
 		margin-right:0;
 		float:left;
