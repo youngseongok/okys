@@ -4,15 +4,20 @@
  * = TABLE OF CONTENTS =
  * 
  * NORMALIZE
- * BASE
- * UTILITY CLASS
- * TEMPLATE
- * - HEADER
- * - HEADER
- * - HEADER
- * - HEADER
- * - HEADER
- * - FOOTER
+ * @Base
+ * @Template...........Mobile First
+ * - @Container
+ * - @Site-logo
+ * - @Nav
+ * - @About
+ * - @Portfolio
+ * - @Writing
+ * - @Footer
+ * - @Helper
+ * @Mid...............Tablet 
+ * @Large.............Desktop
+
+
  */
 
 
@@ -90,7 +95,7 @@ img {
 }
 
 /* ==========================================================================
-   @Page Style : Mobile First
+   @Template : Mobile First
    ========================================================================== */
 
 /* @Container
@@ -130,7 +135,7 @@ img {
 	border-bottom:3px solid #999;
 }
 
-/* @site-logo
+/* @Site-logo
    ========================================================================== */
 
 .site-logo {
