@@ -5,19 +5,18 @@
  * 
  * NORMALIZE
  * @Base
- * @Template...........Mobile First
- * - @Container
- * - @Site-logo
- * - @Nav
- * - @About
- * - @Portfolio
- * - @Writing
- * - @Footer
- * - @Helper
- * @Mid...............Tablet 
- * @Large.............Desktop
-
-
+ * @Small screen.............Mobile First
+ *	 @Container
+ *	 @Header
+ *	 @Site-logo
+ *	 @Nav
+ *	 @About
+ *	 @Portfolio
+ *	 @Writing
+ *	 @Footer
+ *	 @Helper
+ * @Mid sreen................Tablet 
+ * @Large screen.............Desktop
  */
 
 
@@ -28,7 +27,7 @@
 	========================================================================== */
 
 body {
-	font-family: Helvetica, AppleSDGothicNeo, NanumGothic, "Malgun Gothic", Dotum, Arial, sans-serif;
+	font-family: Helvetica, AppleSDGothicNeo, "Malgun Gothic", NanumGothic, Dotum, Arial, sans-serif;
 	font-size:16px;
 	font-style:normal;
 	line-height: 1.5;
@@ -95,7 +94,7 @@ img {
 }
 
 /* ==========================================================================
-   @Template : Mobile First
+   @Small:Mobile First
    ========================================================================== */
 
 /* @Container
