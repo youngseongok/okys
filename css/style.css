@@ -130,7 +130,6 @@ img {
 
 }
 
-
 /* Portfolio */
 .project:after {
 	display: block;
@@ -207,27 +206,6 @@ img {
 .project-meta__value:before {
 	content: '- ';
 }
-
-/* button link */
-
-.btn-link {
-	padding:0.8em 0;
-	background-color:#444;
-	display:block;
-	font-size:1em;
-	text-align: center;
-	margin:0 auto;
-	color:#999;
-}
-
-.btn-link:hover,
-.btn-link:focus {
-	background-color:#ccc;
-	color:#111;
-}
-
-
-
 /* Footer */
 
 .site-footer {
@@ -266,8 +244,9 @@ img {
 	}
 
 	.project {
+		max-width:1920px;
 		padding:0 2em;
-		margin:2.4em 0 0;
+		margin:2.4em auto 0;
 	}
 
 	.project-desc {
@@ -301,8 +280,5 @@ img {
 		float:left;
 	}
 
-	.project .btn-link {
-		clear:right;
-	}
 }
 
