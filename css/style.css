@@ -64,6 +64,10 @@ img {
 	margin:0 auto;
 }
 
+.site-header .inner {
+	padding:1em 2em;
+}
+
 .site-content {
 	background: #f0f0f0;
 }
@@ -73,7 +77,6 @@ img {
 	margin-bottom:10px;
 	border-bottom:4px solid #ccc;
 }
-
 
 /* Header */
 
@@ -225,10 +228,6 @@ img {
 /* 768px ~ */
 
 @media all and (min-width:768px) {
-
-	.site-header .inner {
-		padding-top:1em;
-	}
 	
 	.welcome {
 		border:none;
