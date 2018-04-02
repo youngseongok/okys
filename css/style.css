@@ -32,10 +32,7 @@ a:hover {
 
 a:hover,
 a:focus {
-	background: #ccc;
-	background: rgba(0,0,0,0.1);
-	color: #555;
-	border-bottom: none;
+	text-decoration: underline;
 }
 
 h1 {
@@ -47,7 +44,7 @@ h2 {
 }
 
 p {
-	font-size:14px;
+	font-size:0.875em;
 }
 
 img {
@@ -110,24 +107,17 @@ img {
 
 .about p {
 	margin:0;
-	line-height: 1.8em;
+	line-height: 1.8;
 }
 
-.about a {
-	border-bottom:1px solid #f7f7f7;
-}
-
-.about a:hover,
-.about a:focus {
-	background:none;
-	color:#b93c48;
-	border-bottom:2px solid #b93c48;
+.email {
+	font-size: 14px;
+	line-height: 1.8;
 }
 
 .note li{
 	font-size:14px;
 	line-height:1.4;
-
 }
 
 /* Portfolio */
@@ -159,8 +149,12 @@ img {
 }
 
 .project-desc a {
+	color:#555;
+}
+
+.project-desc a:hover,
+.project-desc a:focus {
 	color:#333;
-	border-bottom:2px solid #ccc;
 }
 
 .project-title {
