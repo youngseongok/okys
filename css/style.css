@@ -20,7 +20,7 @@ a,
 a:link,
 a:hover,
 a:active {
-	text-decoration: none;
+	text-decoration: underline;
 	color:white;
 }
 
@@ -28,11 +28,6 @@ a,
 a:hover {
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
-}
-
-a:hover,
-a:focus {
-	text-decoration: underline;
 }
 
 h1 {
@@ -63,7 +58,7 @@ img {
 }
 
 .site-content {
-	background: #f0f0f0;
+	background: #fcfcfc;
 }
 
 .title {
@@ -101,13 +96,18 @@ img {
 }
 
 .about {
-	background-color:#808080;
+	background-color:#777;
 	color:#f7f7f7;
 }
 
 .about p {
 	margin:0;
 	line-height: 1.8;
+}
+
+.about a:hover,
+.about a:focus {
+	background-color:#069;
 }
 
 .email {
