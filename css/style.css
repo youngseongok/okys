@@ -88,8 +88,8 @@ img {
 }
 
 .about {
-	background-color:#777;
-	color:#f7f7f7;
+	background-color:#555;
+	color:#fff;
 }
 
 .about p {
@@ -186,7 +186,7 @@ img {
 .project-meta__value {
 	margin:0;
 	line-height:1.2;
-	color:#777;
+	color:#555;
 }
 
 .project-meta__value:before {
