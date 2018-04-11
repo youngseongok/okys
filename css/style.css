@@ -4,16 +4,14 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,table,th,td,form,fieldset,legend,
 article,aside,dialog,footer,header,section,footer,nav,figure,main{display:block}
 html,body{height:100%}
 body{min-width:320px;-webkit-text-size-adjust:none;word-break:keep-all;}
-body,input,select,textarea,button{font-family:'Malgun Gothic','맑은고딕','Apple SD Gothic Neo',sans-serif;font-size:16px;color:#333}
+body,input,select,textarea,button{font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은고딕', sans-serif;font-size:16px;color:#333;border-radius:0}
 fieldset,li,img{border:0;vertical-align:top}
 ul,ol{list-style:none}
-button{overflow:visible;border:0;background-color:transparent;cursor:pointer;outline:none}
+button{overflow:visible;border:0;background-color:transparent;cursor:pointer}
 button::-moz-focus-inner{padding:0;border:0}
-address,caption,em{font-style:normal}
-a,a:focus,a:active,a:hover{text-decoration:none}
-a:hover,a:active,a:focus{background-color:transparent}
+address, em{font-style:normal}
+a,a:focus,a:active,a:hover{text-decoration:underline}
 table{border-collapse:collapse;border-spacing:0}
-input[type=text],input[type=number],input[type=radio],input[type=checkbox],input[type=search],textarea,button{border:0 none;-webkit-appearance:none;appearance:none;-webkit-text-size-adjust:none;-webkit-border-radius:0;border-radius:0}
 .blind,legend,caption span{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:1px;line-height:100px;white-space:nowrap}
 
 a,
@@ -22,12 +20,6 @@ a:hover,
 a:active {
 	text-decoration: underline;
 	color:white;
-}
-
-a,
-a:hover {
-	-webkit-transition: all 0.2s ease;
-	transition: all 0.2s ease;
 }
 
 h1 {
@@ -102,7 +94,7 @@ img {
 
 .about p {
 	margin:0;
-	line-height: 1.8;
+	line-height: 1.5;
 }
 
 .about a:hover,
