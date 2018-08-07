@@ -1,0 +1,78 @@
+{
+  "name": "ok-boilerplate",
+  "version": "1.0.0",
+  "description": "ok project base",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "young-seong ok",
+  "license": "ISC",
+  "homepage": "http://youngseongok.github.io",
+  "private": true,
+  "paths": {
+    "src": {
+      "base": "./src/",
+      "css": "./src/css/",
+      "scss": "./src/scss/",
+      "fonts": "./src/fonts/",
+      "json": "./src/json/",
+      "js": "./src/js/",
+      "img": "./src/img/",
+      "svg": "./src/img/svg/"
+    },
+    "dist": {
+      "base": "./dist/",
+      "css": "./dist/css/",
+      "js": "./dist/js/",
+      "fonts": "./dist/fonts/",
+      "img": "./dist/img/",
+      "svg": "./dist/img/svg/"
+    },
+    "sprite": {
+      "src": "./src/img/sprite-src/"
+    },
+    "vender": {
+      "js": "./src/js/vender/",
+      "css": "./src/css/vender/"
+    }
+  },
+  "globs" : {
+    "html" : "*.html",
+    "css" : "*.css",
+    "js" : "*.js",
+    "svg" : "*.svg",
+    "style" : "style.css"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "fancy-log": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-htmlhint": "^2.1.1",
+    "gulp-import-css": "^0.1.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylelint": "^7.0.0",
+    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svg2png": "^2.0.2",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-useref": "^3.1.5",
+    "gulp-w3c-html-validation": "0.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "jquery": "^1.12.4"
+  },
+  "dependencies": {}
+}
